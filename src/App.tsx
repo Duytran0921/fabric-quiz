@@ -1,24 +1,16 @@
 import FabricCanvas from './components/FabricCanvas'
-import './App.css'
+// import './App.css'
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-       
-      </header>
-      
-      <main className="app-main">
+    <div className="w-screen h-screen bg-blue-500">
         <FabricCanvas 
-          width={800} 
-          height={600} 
-          className="main-canvas"
+          className="w-full h-full"
         />
-      </main>
-      
-      <footer className="app-footer">
+
+      {/* <footer className="app-footer">
         <p>Built with React, TypeScript, and Fabric.js</p>
-      </footer>
+      </footer> */}
     </div>
   )
 }
